@@ -1,0 +1,100 @@
+#root {
+  text-align: center;
+}
+
+.flex {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+
+section.logo-bnr {
+  flex: 0 0;
+  gap: .5rem;
+}
+
+section.flex.nav-bnr {
+  margin-right: 1rem;
+  margin-left: auto;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(4px);
+}
+
+.logo-bnr > h3 {
+  text-wrap: nowrap;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.logo {
+  max-width: 3rem;
+}
+
+.socials {
+  gap: .5rem;
+  margin-left: 1rem;
+}
+
+.socials > a > img {
+  width: 2rem;
+}
+
+.bg-nav {
+  gap: 1rem;
+}
+
+/* Navigation burger image for tablets and phone - not displayed on PC */
+.sml-nav > img{
+   display: none;
+}
+
+/* Media queries for Navigation.jsx */
+@media only screen and (max-width:768px) {
+  .logo-bnr > h3 {
+    font-size: 1rem;
+  }
+
+  .logo {
+  max-width: 2.5rem;
+  }
+
+  section > .bg-nav {
+    display: none;
+  }
+  
+  .sml-nav > img {
+      display: block;
+      max-width: 1.5rem;
+      margin-left: .5rem;
+    }
+
+    section.nav-bnr {
+      margin-right: 1rem;
+    }
+    
+ }
+  
+  @media only screen and (max-width:480px) {
+    .logo-bnr > h3 {
+    font-size: .8rem;
+    }
+
+    .logo {
+    max-width: 2rem;
+    }
+
+    .sml-nav > img {
+      max-width: 1.2rem;
+    }
+  }
+  /* End of media queries */
