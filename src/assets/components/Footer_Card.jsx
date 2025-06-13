@@ -1,5 +1,3 @@
-function Footer_Card() {
-
-};
+function Footer_Card() {}
 
 export default Footer_Card;

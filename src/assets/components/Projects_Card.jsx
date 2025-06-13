@@ -1,5 +1,3 @@
-function Projects_Card() {
-
-};
+function Projects_Card() {}
 
 export default Projects_Card;
