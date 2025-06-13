@@ -46,7 +46,7 @@ return (
             <a href="#" className='sml-nav'>
                 <img src={email_icon} />
             </a>
-            <a href="#" className='sml-nav'>
+            <a href="#" className='sml-nav mobile'>
                 <img src={menu_burger} />
             </a>
         </section>
