@@ -2,7 +2,6 @@ import myImg from '../media/IMG_20220704_114658_edited.jpg'
 
 function Banner_Card() {
   return (
-    <>
       <div className="bnr-container flex">
         <img className='prfl-img' src={myImg} alt="Image of Martin" />
         <section className="prfl-info-container">
@@ -24,7 +23,6 @@ function Banner_Card() {
             </div>
         </section>
       </div>
-    </>
   );
 }
 
