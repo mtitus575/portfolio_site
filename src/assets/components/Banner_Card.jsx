@@ -10,11 +10,11 @@ function Banner_Card() {
             <h4 className='job-title'>Software Developer</h4>
             <article className='abt-me'>
                 <p>
-                    I'm a creative and enthusiastic developer who loves bringing ideas to life through engaging digital experiences. With a solid grasp of modern web technologies and a genuine excitement for learning.
+                    I'm a creative and enthusiastic developer who genuinely enjoys turning ideas into fun, engaging digital experiences. 
                     <br /><br />
-                    I approach every project with positivity, adaptability, and a collaborative spirit. I enjoy working closely with others, communicating openly, and always striving to deliver results that delight and inspire. My passion for innovation and growth means I’m always ready to take on new challenges and contribute fresh perspectives. 
+                    Learning new things and working with modern web tech keeps me excited about every project. I love teaming up with others, sharing ideas, and making sure the results are something we can all be proud of. 
                     <br /><br />
-                    Let's connect and see how we can create something amazing together!
+                    let's connect and build something great together!
                 </p>
 
             </article>
