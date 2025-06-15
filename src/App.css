@@ -128,6 +128,7 @@ section.flex.nav-bnr {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .prfl-img {
@@ -143,8 +144,7 @@ section.flex.nav-bnr {
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: flex-start; */
-  width: 40rem;    /* Sets a fixed width, adjust as needed */
+  width: 40rem; /* Sets a fixed width, adjust as needed */
   max-width: 100%; /* Prevent overflow on small screens */
   box-sizing: border-box; /* Include padding/border in width */
 }
@@ -177,4 +177,64 @@ h4 {
   height: 2.5rem;
   font-size: 1rem;
   border-radius: 10px;
+}
+
+/* Start of PROJECTS styling */
+.prjcts-container {
+  box-sizing: border-box;
+}
+.prjcts-card-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prjct-card {
+  box-sizing: border-box;
+  border: 1px solid rgb(106, 164, 155); /*Delete*/
+  border-radius: 10px;
+  background-color: rgb(53, 53, 54);
+  flex: 1 1;
+  max-width: 25rem;
+  min-width: 25rem;
+}
+
+.prjct-card > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+.prjct-detail-ctn {
+  height: 20rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.techUsed {
+  display: inline-flex;
+  gap: 1rem;
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  padding-left: 0;
+}
+.techUsed li:first-child {
+  list-style: none;
+}
+.techUsed li {
+  list-style: inside;
+  font-size: 0.9rem;
+  flex-shrink: 1;
+}
+
+.prjct-btn-ctn {
+  display: inline-flex;
+  gap: 1rem;
 }
