@@ -1,4 +1,4 @@
-import menu_burger from "../media/menu_button_icon.png"; //This is the menu burger icon.
+import menu_burger from "../media/menu_button_icon.png";
 import github_icon from "../media/github_icon.png";
 import email_icon from "../media/email_icon.png";
 import linkedin_icon from "../media/linkedIn_icon.png";
@@ -58,5 +58,3 @@ function Navigation_Card() {
 }
 
 export default Navigation_Card;
-
-//This section is DONE.

@@ -250,6 +250,7 @@ h4 {
 
 /* Start of PROJECTS styling */
 .prjcts-container {
+  margin-top: 4rem;
   box-sizing: border-box;
 }
 .prjcts-card-container {
@@ -259,6 +260,7 @@ h4 {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 2rem;
 }
 
 .prjct-card {
@@ -306,4 +308,111 @@ h2 {
 .prjct-btn-ctn {
   display: inline-flex;
   gap: 1rem;
+}
+
+/* Start of EXPERT styling */
+.expert-ctn {
+  box-sizing: border-box;
+  margin-top: 4rem;
+}
+
+.expert-card-ctn {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tech-card {
+  box-sizing: border-box;
+  border: 1px solid rgb(252, 252, 175);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  min-height: 12rem;
+  border-radius: 10px;
+}
+
+.techImg {
+  border: 1px solid rgb(243, 156, 156);
+  width: 3rem;
+  border-radius: 10px;
+  background-color: rgb(244, 222, 193);
+  margin-bottom: 0.5rem;
+}
+
+/* Start of CONTACT Styling */
+.contact-ctn {
+  margin-top: 2rem;
+}
+
+.form {
+  border: 1px solid rgb(139, 143, 139);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  justify-self: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+#contactName,
+#contactEmail {
+  min-width: 40%;
+  height: 2rem;
+}
+
+#contactSubject,
+#contactUserMessage {
+  min-width: 80%;
+  height: 2rem;
+}
+
+#contactUserMessage {
+  min-height: 10rem;
+}
+
+.form-btn {
+  min-width: 70%;
+  background-color: aliceblue;
+}
+
+.frm-style {
+  border-radius: 10px;
+  box-shadow: 1px 10px 30px 1px rgb(91, 105, 117);
+  background-color: rgb(180, 185, 184);
+}
+
+/* Start of FOOTER Stling */
+.ft-main-ctn {
+  margin: 2rem 0;
+}
+
+.ft-ctn {
+  display: inline-flex;
+  gap: 2rem;
+}
+
+.ft-block {
+  line-height: 1.5;
+  width: 20rem;
+}
+
+.icon-ctn {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.icon-ctn > img {
+  width: 1.5rem;
+  border: 1px solid gray;
+  padding: 0.2rem;
+  border-radius: 10px;
 }
