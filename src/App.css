@@ -265,12 +265,11 @@ h4 {
 
 .prjct-card {
   box-sizing: border-box;
-  border: 1px solid rgb(106, 164, 155); /*Delete*/
   border-radius: 10px;
   background-color: rgb(53, 53, 54);
   flex: 1 1;
-  max-width: 25rem;
-  min-width: 25rem;
+  max-width: 20rem;
+  min-width: 20rem;
 }
 
 .prjct-card > img {
@@ -280,7 +279,7 @@ h4 {
   border-radius: 10px 10px 0 0;
 }
 .prjct-detail-ctn {
-  height: 20rem;
+  height: 22rem;
 }
 
 h2 {
@@ -320,9 +319,11 @@ h2 {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  justify-self: center;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 2rem;
+  max-width: 80%;
 }
 
 .tech-card {
@@ -393,21 +394,38 @@ h2 {
 /* Start of FOOTER Stling */
 .ft-main-ctn {
   margin: 2rem 0;
+  flex-shrink: 1;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .ft-ctn {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
 }
 
 .ft-block {
   line-height: 1.5;
   width: 20rem;
+  min-width: 12rem;
+  max-width: 20rem;
+  flex: 1 1 20rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
 }
 
 .icon-ctn {
-  display: inline-flex;
+  display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .icon-ctn > img {
@@ -415,4 +433,41 @@ h2 {
   border: 1px solid gray;
   padding: 0.2rem;
   border-radius: 10px;
+}
+
+/* Responsive styles for footer */
+@media only screen and (max-width: 1024px) {
+  .ft-block {
+    width: 15rem;
+    min-width: 10rem;
+    max-width: 15rem;
+    flex: 1 1 15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ft-ctn {
+    gap: 1rem;
+  }
+  .ft-block {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .ft-main-ctn {
+    margin: 1rem 0;
+  }
+  .ft-ctn {
+    gap: 0.5rem;
+  }
+  .ft-block {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
 }
