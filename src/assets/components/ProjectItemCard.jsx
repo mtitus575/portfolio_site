@@ -1,4 +1,4 @@
-import link_icon from "../media/external_link_icon.png";
+import link_icon from "../media/external_link_icon.svg";
 import github_icon from "../media/github_icon.svg";
 
 function ProjectItemCard(props) {
@@ -16,13 +16,13 @@ function ProjectItemCard(props) {
       </section>
       <section className="prjct-btn-ctn">
         <a href={props.projectObj.linkToRepo} target="_blank">
-          <button className="btn">
-            <img src={github_icon} width={"22rem"} />
+          <button className="prjct-btn btn">
+            <img src={github_icon} width={"20rem"} />
             Code
           </button>
         </a>
         <a href={props.projectObj.linkToDemo} target="_blank">
-          <button className="btn">
+          <button className="prjct-btn btn">
             <img src={link_icon} />
             Live Demo
           </button>

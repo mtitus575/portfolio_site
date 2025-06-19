@@ -332,6 +332,12 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+.prjct-btn > img {
+  width: 1rem;
+  float: left;
+  margin-right: 0.2rem;
+}
+
 /* Start of EXPERT styling */
 .expert-ctn {
   box-sizing: border-box;
