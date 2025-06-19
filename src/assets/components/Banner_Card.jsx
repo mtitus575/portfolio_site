@@ -1,4 +1,4 @@
-import myImg from "../media/IMG_20220704_114658_edited.jpg";
+import myImg from "../media/Profile_img.jpg";
 
 function Banner_Card() {
   return (
@@ -32,7 +32,7 @@ function Banner_Card() {
             target="_blank"
             rel="noopener noreferrer"
           > */}
-            <button className="cv-btn btn">Download CV</button>
+          <button className="cv-btn btn">Download CV</button>
           {/* </a> */}
           <button className="contact-btn btn">Contact me!</button>
         </div>

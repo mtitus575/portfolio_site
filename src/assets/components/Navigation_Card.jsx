@@ -1,7 +1,7 @@
-import menu_burger from "../media/menu_button_icon.png";
-import github_icon from "../media/github_icon.png";
+import menu_burger from "../media/menu_button_icon.svg";
+import github_icon from "../media/github_icon.svg";
 import email_icon from "../media/email_icon.png";
-import linkedin_icon from "../media/linkedIn_icon.png";
+import linkedin_icon from "../media/linkedIn_icon.svg";
 
 function Navigation_Card() {
   return (

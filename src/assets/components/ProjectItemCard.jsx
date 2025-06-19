@@ -1,5 +1,5 @@
 import link_icon from "../media/external_link_icon.png";
-import github_icon from "../media/github_black.png";
+import github_icon from "../media/github_icon.svg";
 
 function ProjectItemCard(props) {
   return (

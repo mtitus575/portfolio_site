@@ -1,6 +1,6 @@
-import github_icon from "../media/github_icon.png";
+import github_icon from "../media/github_icon.svg";
 import email_icon from "../media/email_icon.png";
-import linkedin_icon from "../media/linkedIn_icon.png";
+import linkedin_icon from "../media/linkedIn_icon.svg";
 
 function Footer_Card() {
   return (

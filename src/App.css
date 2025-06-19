@@ -1,3 +1,11 @@
+/* colour pallete: 
+#cad2c5
+#84a98c
+#52796f
+#354f52
+#2f3e46
+*/
+
 #root {
   text-align: center;
 }
@@ -28,6 +36,7 @@ section.flex.nav-bnr {
   left: 0;
   top: 0;
   z-index: 10;
+  border-bottom: 1px solid #84a98c;
   backdrop-filter: blur(4px);
 }
 
@@ -39,6 +48,8 @@ section.flex.nav-bnr {
 
 .logo {
   max-width: 3rem;
+  filter: invert(92%) sepia(18%) saturate(113%) hue-rotate(53deg)
+    brightness(89%) contrast(91%);
 }
 
 .socials {
@@ -48,6 +59,7 @@ section.flex.nav-bnr {
 
 .socials > a > img {
   width: 2rem;
+  /* filter: invert(92%) sepia(18%) saturate(113%) hue-rotate(53deg) brightness(89%) contrast(91%); */
 }
 
 .bg-nav {
@@ -57,6 +69,7 @@ section.flex.nav-bnr {
 /* Navigation burger image for tablets and phone - not displayed on PC */
 .sml-nav > img {
   display: none;
+  /* filter: invert(92%) sepia(18%) saturate(113%) hue-rotate(53deg) brightness(89%) contrast(91%); */
 }
 
 /* Media queries for Navigation.jsx */
@@ -137,7 +150,7 @@ section.flex.nav-bnr {
   height: 15rem;
   border-radius: 50%;
   margin-left: 2rem;
-  border: solid;
+  border: 2px solid #52796f;
   object-fit: cover;
 }
 
@@ -179,6 +192,14 @@ h4 {
   height: 2.5rem;
   font-size: 1rem;
   border-radius: 10px;
+  border-color: #354f52;
+  background-color: #52796f;
+}
+.btn:hover {
+  background-color: #84a98c;
+}
+.btn:active {
+  background-color: #354f52;
 }
 
 /* Responsive styles */
@@ -266,7 +287,8 @@ h4 {
 .prjct-card {
   box-sizing: border-box;
   border-radius: 10px;
-  background-color: rgb(53, 53, 54);
+  border: 1px solid #52796f;
+  background-color: #2f3e46;
   flex: 1 1;
   max-width: 20rem;
   min-width: 20rem;
@@ -307,6 +329,7 @@ h2 {
 .prjct-btn-ctn {
   display: inline-flex;
   gap: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Start of EXPERT styling */
@@ -328,7 +351,7 @@ h2 {
 
 .tech-card {
   box-sizing: border-box;
-  border: 1px solid rgb(252, 252, 175);
+  border: 1px solid #354f52;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -339,10 +362,10 @@ h2 {
 }
 
 .techImg {
-  border: 1px solid rgb(243, 156, 156);
+  border: 1px solid #354f52;
   width: 3rem;
   border-radius: 10px;
-  background-color: rgb(244, 222, 193);
+  background-color: #52796f;
   margin-bottom: 0.5rem;
 }
 
@@ -352,7 +375,7 @@ h2 {
 }
 
 .form {
-  border: 1px solid rgb(139, 143, 139);
+  border: 1px solid #354f52;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -382,13 +405,12 @@ h2 {
 
 .form-btn {
   min-width: 70%;
-  background-color: aliceblue;
 }
 
 .frm-style {
   border-radius: 10px;
-  box-shadow: 1px 10px 30px 1px rgb(91, 105, 117);
-  background-color: rgb(180, 185, 184);
+  box-shadow: 1px 10px 30px 1px #354f52;
+  background-color: #cad2c5;
 }
 
 /* Start of FOOTER Stling */
@@ -430,7 +452,7 @@ h2 {
 
 .icon-ctn > img {
   width: 1.5rem;
-  border: 1px solid gray;
+  border: 1px solid #354f52;
   padding: 0.2rem;
   border-radius: 10px;
 }
