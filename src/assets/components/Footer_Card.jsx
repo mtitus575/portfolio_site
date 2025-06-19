@@ -16,7 +16,7 @@ function Footer_Card() {
         <div>
           <h5>Contact</h5>
           <p>England, United Kingdom</p>
-          <p>addMyEmail@gmail.com</p>
+          <p>mjtitus06@gmail.com</p>
         </div>
         <div>
           <h5>Connect</h5>

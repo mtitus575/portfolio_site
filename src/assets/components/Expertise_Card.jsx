@@ -7,7 +7,7 @@ function Expertise_Card() {
   });
 
   return (
-    <section className="expert-ctn">
+    <section id="expertise" className="expert-ctn">
       <h2>Techology Expertise</h2>
       <p>I have experience working with these technologies</p>
       <section className="expert-card-ctn">{itemCard}</section>

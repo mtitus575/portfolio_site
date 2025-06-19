@@ -135,7 +135,8 @@ section.flex.nav-bnr {
 
 /* Start of BANNER styling */
 .bnr-container {
-  margin-top: 4.6rem;
+  border-bottom: 1px solid #354f52;
+  margin-top: 2rem;
   padding: 2rem 0;
   gap: 1rem;
   display: flex;
@@ -269,6 +270,17 @@ h4 {
   }
 }
 
+/* Start of AboutME styling */
+.aboutMe {
+  margin-top: 2rem;
+  border-bottom: 1px solid #354f52;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
 /* Start of PROJECTS styling */
 .prjcts-container {
   margin-top: 4rem;
@@ -306,8 +318,13 @@ h4 {
 
 h2 {
   font-size: 2rem;
-  margin-top: 1rem;
-  margin-bottom: 0;
+  margin: 1rem 0 0 0;
+  box-sizing: border-box;
+}
+
+h5 {
+  font-size: 1.3rem;
+  margin: 1rem 0 0 0;
 }
 
 .techUsed {

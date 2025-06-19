@@ -6,7 +6,7 @@ function ProjectItemCard(props) {
     <section className="prjct-card">
       <img src={props.projectObj.img} alt="project screebshot" />
       <section className="prjct-detail-ctn">
-        <h2>{props.projectObj.name}</h2>
+        <h5>{props.projectObj.name}</h5>
         <ul className="techUsed">
           {props.projectObj.techUsed.map((tech) => (
             <li>{tech}</li>
@@ -17,7 +17,7 @@ function ProjectItemCard(props) {
       <section className="prjct-btn-ctn">
         <a href={props.projectObj.linkToRepo} target="_blank">
           <button className="prjct-btn btn">
-            <img src={github_icon} width={"20rem"} />
+            <img src={github_icon} />
             Code
           </button>
         </a>

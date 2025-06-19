@@ -19,21 +19,21 @@ function Navigation_Card() {
           <a href="#">
             <li>Home</li>
           </a>
-          <a href="#">
+          <a href="#about">
             <li>About</li>
           </a>
-          <a href="#">
+          <a href="#projects">
             <li>Projects</li>
           </a>
-          <a href="#">
+          <a href="#expertise">
             <li>Technologies</li>
           </a>
-          <a href="#">
+          <a href="#contact">
             <li>Contact</li>
           </a>
         </ul>
         <ul className="flex socials bg-nav">
-          <a href="#">
+          <a href="https://github.com/mtitus575" target="_blank">
             <img src={github_icon} alt="github icon" />
           </a>
           <a href="#">

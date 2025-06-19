@@ -1,6 +1,7 @@
 //App component is the entire page (with all the below components imported):
 import Navigation from "./assets/components/Navigation_Card";
 import Banner from "./assets/components/Banner_Card";
+import About from "./assets/components/About";
 import Projects from "./assets/components/Projects_Card";
 import Expertise from "./assets/components/Expertise_Card";
 import Contact from "./assets/components/Contact_Card";
@@ -13,6 +14,7 @@ function App() {
     <>
       <Navigation />
       <Banner />
+      <About />
       <Projects />
       <Expertise />
       <Contact />
