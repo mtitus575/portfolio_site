@@ -7,7 +7,7 @@ const projectsDone = [
     techUsed: ["React", "CSS", "JavaScript"],
     aboutProject:
       "This project is a personal portfolio website designed to showcase development skills, projects, and experience. Built with modern web technologies, it features a clean, responsive design and interactive components, making it easy for visitors to explore my work, and connect with me.",
-    linkToRepo: "https://www.google.com/",
+    linkToRepo: "https://github.com/mtitus575/portfolio_site.git",
     linkToDemo: "https://www.google.com/",
   },
   {
