@@ -24,6 +24,17 @@ section.logo-bnr {
   gap: 0.5rem;
 }
 
+.nav-a:hover {
+  color: inherit;
+}
+.hover:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.hover:active {
+  scale: 1;
+}
+
 section.flex.nav-bnr {
   margin-right: 1rem;
   margin-left: auto;
@@ -197,10 +208,13 @@ h4 {
   background-color: #52796f;
 }
 .btn:hover {
+  cursor: pointer;
   background-color: #84a98c;
+  scale: 1.05;
 }
 .btn:active {
   background-color: #354f52;
+  scale: 0.95;
 }
 
 /* Responsive styles */
@@ -304,6 +318,11 @@ h4 {
   flex: 1 1;
   max-width: 20rem;
   min-width: 20rem;
+}
+
+.prjct-card:hover {
+  cursor: pointer;
+  scale: 1.01;
 }
 
 .prjct-card > img {
@@ -473,7 +492,7 @@ h5 {
   flex-wrap: wrap;
 }
 
-.icon-ctn > img {
+.icon-ctn > a > img {
   width: 1.5rem;
   border: 1px solid #354f52;
   padding: 0.2rem;

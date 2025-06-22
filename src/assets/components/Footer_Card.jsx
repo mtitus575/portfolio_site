@@ -21,9 +21,15 @@ function Footer_Card() {
         <div>
           <h5>Connect</h5>
           <div className="icon-ctn">
-            <img src={github_icon} alt="github icon" />
-            <img src={email_icon} alt="email icon" />
-            <img src={linkedin_icon} alt="linkedin icon" />
+            <a href="https://github.com/mtitus575">
+              <img className="hover" src={github_icon} alt="github icon" />
+            </a>
+            <a href="#contact-form">
+              <img className="hover" src={email_icon} alt="email icon" />
+            </a>
+            <a href="#">
+              <img className="hover" src={linkedin_icon} alt="linkedin icon" />
+            </a>
           </div>
         </div>
       </section>
