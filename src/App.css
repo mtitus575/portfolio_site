@@ -50,6 +50,40 @@ section.flex.nav-bnr {
   border-bottom: 1px solid #84a98c;
   backdrop-filter: blur(4px);
 }
+/* Expanding NavBar for smaller screen. */
+.nav-expand{
+  position:fixed;
+  right: 0;
+  top: 0rem;
+  border: 1px solid #354f52;
+  background-color: #84a98c;
+  min-width: 30%;
+  height: 100vh;
+  /* display: inline-flex; */
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
+.expanded-socials{
+  margin-top: 2.5rem;
+  display: flex;
+  padding-left: 0;
+  border-bottom: 1px solid #52796f;
+}
+.expanded-nav{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.exit{
+  position: fixed;
+  top: .5rem;
+  right: 1rem;
+  width: 1.5rem;
+}
+
+/*  */
 
 .logo-bnr > h3 {
   text-wrap: nowrap;
