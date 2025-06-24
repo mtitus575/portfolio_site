@@ -329,85 +329,6 @@ h4 {
   width: 80%;
 }
 
-/* Start of PROJECTS styling */
-.prjcts-container {
-  margin-top: 4rem;
-  box-sizing: border-box;
-}
-.prjcts-card-container {
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.prjct-card {
-  box-sizing: border-box;
-  border-radius: 10px;
-  border: 1px solid #52796f;
-  background-color: #2f3e46;
-  flex: 1 1;
-  max-width: 20rem;
-  min-width: 20rem;
-}
-
-.prjct-card:hover {
-  cursor: pointer;
-  scale: 1.01;
-}
-
-.prjct-card > img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 10px 10px 0 0;
-}
-.prjct-detail-ctn {
-  height: 22rem;
-}
-
-h2 {
-  font-size: 2rem;
-  margin: 1rem 0 0 0;
-  box-sizing: border-box;
-}
-
-h5 {
-  font-size: 1.3rem;
-  margin: 1rem 0 0 0;
-}
-
-.techUsed {
-  display: inline-flex;
-  gap: 1rem;
-  margin-top: 0;
-  margin-bottom: 0.1rem;
-  padding-left: 0;
-}
-.techUsed li:first-child {
-  list-style: none;
-}
-.techUsed li {
-  list-style: inside;
-  font-size: 0.9rem;
-  flex-shrink: 1;
-}
-
-.prjct-btn-ctn {
-  display: inline-flex;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.prjct-btn > img {
-  width: 1rem;
-  float: left;
-  margin-right: 0.2rem;
-}
-
 /* Start of EXPERT styling */
 .expert-ctn {
   box-sizing: border-box;
@@ -569,3 +490,7 @@ h5 {
     padding: 0 0.5rem;
   }
 }
+
+
+
+/* remove */

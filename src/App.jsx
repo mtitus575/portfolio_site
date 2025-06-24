@@ -7,7 +7,9 @@ import Expertise from "./assets/components/Expertise_Card";
 import Contact from "./assets/components/Contact_Card";
 import Footer from "./assets/components/Footer_Card";
 
+//Styles:
 import "./App.css";
+import "./assets/components/styles/Projects.css";
 
 function App() {
   return (

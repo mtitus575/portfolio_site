@@ -3,7 +3,7 @@ import github_icon from "../media/github_icon.svg";
 
 function ProjectItemCard(props) {
   return (
-    <section className="prjct-card">
+    <section className="prjct-card" id={props.projectObj.id}>
       <img src={props.projectObj.img} alt="project screebshot" />
       <section className="prjct-detail-ctn">
         <h5>{props.projectObj.name}</h5>
